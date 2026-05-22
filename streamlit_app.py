@@ -13,3 +13,7 @@ st.markdown(
     ":violet-badge[:material/star: Favorite] :orange-badge[⚠️ Needs review] :gray-badge[Deprecated]"
 )
 st.text(body, *, help=None, width="content", text_alignment="left")
+import streamlit as st
+
+color = st.color_picker("Pick A Color", "#00f900")
+st.write("The current color is", color)
