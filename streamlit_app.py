@@ -15,5 +15,5 @@ st.markdown(
 st.text(body, *, help=None, width="content", text_alignment="left")
 import streamlit as st
 
-color = st.color_picker("Pick A Color", "#00f900")
+color = st.color_picker("Pick A Color", "#f900ee")
 st.write("The current color is", color)
