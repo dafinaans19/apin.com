@@ -12,6 +12,4 @@ st.badge("Success", icon=":material/check:", color="green")
 st.markdown(
     ":violet-badge[:material/star: Favorite] :orange-badge[⚠️ Needs review] :gray-badge[Deprecated]"
 )
-import streamlit as st
-
-st.text("This is text\n[and more text](that's not a Markdown link).")
+st.text(body, *, help=None, width="content", text_alignment="left")
